@@ -1,1 +1,1 @@
-0x01.py
+#!/usr/bin/python3

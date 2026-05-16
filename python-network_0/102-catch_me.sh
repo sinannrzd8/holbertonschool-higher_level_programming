@@ -1,3 +1,3 @@
 #!/bin/bash
-# Sends a request that makes the server respond with "You got me!"
-curl -sL -X PUT -H "Origin: School" 0.0.0.0:5000/catch_me
+# Makes a request that triggers "You find me!"
+curl -sL -X PUT -H "User-Agent: You got me!" 0.0.0.0:5000/catch_me
